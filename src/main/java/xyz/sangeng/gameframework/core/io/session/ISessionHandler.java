@@ -1,4 +1,4 @@
-package xyz.sangeng.gameframework.core.io.session.handler;
+package xyz.sangeng.gameframework.core.io.session;
 
 
 import io.netty.channel.ChannelHandlerContext;

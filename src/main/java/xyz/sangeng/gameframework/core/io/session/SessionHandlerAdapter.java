@@ -7,7 +7,6 @@ import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import xyz.sangeng.gameframework.core.io.session.handler.ISessionHandler;
 import xyz.sangeng.gameframework.utils.ClassUtil;
 
 import java.net.InetSocketAddress;

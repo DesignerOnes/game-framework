@@ -15,7 +15,6 @@ import org.apache.logging.log4j.Logger;
 import xyz.sangeng.gameframework.core.config.ApplicationContextProvider;
 import xyz.sangeng.gameframework.core.config.ServerConfig;
 import xyz.sangeng.gameframework.core.io.session.SessionHandlerAdapter;
-import xyz.sangeng.gameframework.core.io.session.handler.test.EchoServerHandler;
 import xyz.sangeng.gameframework.core.thread.ExecutorServiceFactory;
 
 import java.util.concurrent.ExecutorService;

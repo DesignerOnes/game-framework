@@ -1,4 +1,4 @@
-package xyz.sangeng.gameframework.core.io.session.handler.test;
+package xyz.sangeng.gameframework.core.io;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

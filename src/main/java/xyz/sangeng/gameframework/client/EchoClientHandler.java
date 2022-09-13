@@ -9,9 +9,6 @@ import io.netty.util.CharsetUtil;
 
 /**
  * @Auther: HuangHailiang
- * @Date: 2022-9-13-10:18
- * @Description: xyz.sangeng.gameframework.client
- * @version: 1.0
  */
 //@Sharable标记这个类的实例可以在 channel 里共享
 @ChannelHandler.Sharable
@@ -19,7 +16,7 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
         //当被通知该 channel 是活动的时候就发送信息
-        ctx.writeAndFlush(Unpooled.copiedBuffer("Netty rocks!", CharsetUtil.UTF_8));
+        ctx.writeAndFlush(Unpooled.copiedBuffer("Hello Netty!", CharsetUtil.UTF_8));
     }
 
     @Override
